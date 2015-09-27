@@ -5,7 +5,7 @@ body, html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 7, ../sass/s.scss */
+/* line 6, ../sass/s.scss */
 #content {
   width: 80%;
   margin: 3% auto;
@@ -16,32 +16,32 @@ body, html {
   -moz-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.75);
 }
-/* line 17, ../sass/s.scss */
+/* line 16, ../sass/s.scss */
 #content .document h1 {
   display: none;
 }
-/* line 20, ../sass/s.scss */
+/* line 19, ../sass/s.scss */
 #content .document p a sup {
   color: #4976B9;
   font-weight: bold;
 }
-/* line 24, ../sass/s.scss */
+/* line 23, ../sass/s.scss */
 #content .document sup {
   color: #439142;
   font-weight: bold;
 }
-/* line 29, ../sass/s.scss */
+/* line 28, ../sass/s.scss */
 #content .mainImg {
   width: 100%;
   text-align: center;
 }
-/* line 32, ../sass/s.scss */
+/* line 31, ../sass/s.scss */
 #content .mainImg img {
   max-width: 60%;
   margin: 0 auto;
 }
 
-/* line 38, ../sass/s.scss */
+/* line 37, ../sass/s.scss */
 .menu {
   position: fixed;
   display: none;
@@ -53,21 +53,21 @@ body, html {
   -moz-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.75);
 }
-/* line 49, ../sass/s.scss */
+/* line 48, ../sass/s.scss */
 .menu .font span {
   cursor: pointer;
 }
-/* line 52, ../sass/s.scss */
+/* line 51, ../sass/s.scss */
 .menu .font .serif {
   margin-right: 0.5rem;
   font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
 }
-/* line 56, ../sass/s.scss */
+/* line 55, ../sass/s.scss */
 .menu .font .sans-serif {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 61, ../sass/s.scss */
+/* line 60, ../sass/s.scss */
 .footer {
   width: 100%;
   font-size: 11px;
@@ -77,7 +77,7 @@ body, html {
   padding: 0.5rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
-/* line 69, ../sass/s.scss */
+/* line 68, ../sass/s.scss */
 .footer a {
   color: #4976B9;
   text-decoration: none;

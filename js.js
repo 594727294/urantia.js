@@ -4,26 +4,18 @@ var paperNumber = "";
 var paperTitle = "";
 var paragraph ="";
 
-
-//get papernumber
-
-if(randlenght == 1){
-	paperNumber = "00"+rand;
-}else if(randlenght == 2){
-	paperNumber = "0"+rand;
-}else {
-	paperNumber = rand;
+function getDocument(){
+  if(randlenght == 1){
+    paperNumber = "00"+rand;
+  }else if(randlenght == 2){
+    paperNumber = "0"+rand;
+  }else {
+    paperNumber = rand;
+  }
+  $('#content .document').load("src/p"+paperNumber+".htm");
+  //$('#content .document').load("src/p"+paperNumber+".htm h3");
+  //$('#content .document').load("src/p"+paperNumber+".htm a h4");
 }
-
-//fetch document
-$(function() {
-	$('#content .document').load("src/p"+paperNumber+".htm");
-	//$('#content .document').load("src/p"+paperNumber+".htm h3");
-	//$('#content .document').load("src/p"+paperNumber+".htm a h4");
-});
-
-
-//random banner
 
 $(document).ready(function(){
 	$(".mainImg img").attr("src", "img/"+ getRandomImage());
