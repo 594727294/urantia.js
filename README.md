@@ -4,3 +4,7 @@
 <h6>Random papers (soon to be quotes) from The Urantia Book</h6>
 <br>
 <p>So, this is an urantian (human) repository of JS/HTML5 code trying to make the reading/studying of The Urantia Book more accesible and fast.</p>
+<p>The source of the book comes from the HTML version <a href="http://www.urantia.org/urantia-book/download-text-urantia-book" target="_blank">release</a>from The Urantia Foundation in 2015-06-05</p>
+
+
+<p>Current version <a href="http://furcio.cl/ur/urantia.html" target="_blank">here</a></p>
