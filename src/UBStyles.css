@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+ .c1 { text-align: center; }
+ .Colored { color: #990000; }
+ .ColItal { color: #990000; font-style: italic; }
+ .in { margin-left: 2em; }
+ .SCaps { font-size: smaller; text-transform: uppercase; }
+ .UL { text-decoration: underline; }
+

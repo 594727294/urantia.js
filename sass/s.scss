@@ -1,0 +1,25 @@
+body, html{
+	margin:0;
+	width:100%;
+}
+#content {
+	width:80%;
+	margin:1.5% auto;
+	padding:1rem;
+	-webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    1px 1px 3px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         1px 1px 3px 0px rgba(50, 50, 50, 0.75);
+	.document{
+		h1{
+			display:none;
+		}
+	}
+	.mainImg{
+		width:100%;
+		text-align:center;
+		img{
+			max-width:60%;
+			margin: 0 auto;
+		}
+	}
+}
