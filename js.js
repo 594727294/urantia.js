@@ -58,8 +58,8 @@ function getRandomImage() {
   "37.jpg",
   "38.jpg",
   "39.jpg",
-  "40.jpg"
-  "41.jpg"
+  "40.jpg",
+  "41.jpg",
   "42.jpg"
   ];
 
