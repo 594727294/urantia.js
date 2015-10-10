@@ -17,10 +17,6 @@ function getDocument(){
   //$('#content .document').load("src/p"+paperNumber+".htm a h4");
 }
 
-$(document).ready(function(){
-	$(".mainImg img").attr("src", "img/"+ getRandomImage());
-});
-
 function getRandomImage() {
   var images = [
   "1.jpg",
@@ -57,11 +53,23 @@ function getRandomImage() {
   "32.jpg",
   "33.jpg",
   "34.jpg",
-  "35.jpg"
+  "35.jpg",
+  "36.jpg",
+  "37.jpg",
+  "38.jpg",
+  "39.jpg",
+  "40.jpg"
+  "41.jpg"
+  "42.jpg"
   ];
 
   return images[Math.floor(Math.random() * images.length)];
 }
+
+$(document).ready(function(){
+  getDocument();
+  $(".mainImg img").attr("src", "img/"+ getRandomImage());
+});
 
 // get paper data
 $(function() {
