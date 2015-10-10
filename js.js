@@ -4,30 +4,18 @@ var paperNumber = "";
 var paperTitle = "";
 var paragraph ="";
 
-
-//get papernumber
-
-if(randlenght == 1){
-	paperNumber = "00"+rand;
-}else if(randlenght == 2){
-	paperNumber = "0"+rand;
-}else {
-	paperNumber = rand;
+function getDocument(){
+  if(randlenght == 1){
+    paperNumber = "00"+rand;
+  }else if(randlenght == 2){
+    paperNumber = "0"+rand;
+  }else {
+    paperNumber = rand;
+  }
+  $('#content .document').load("src/p"+paperNumber+".htm");
+  //$('#content .document').load("src/p"+paperNumber+".htm h3");
+  //$('#content .document').load("src/p"+paperNumber+".htm a h4");
 }
-
-//fetch document
-$(function() {
-	$('#content .document').load("src/p"+paperNumber+".htm");
-	//$('#content .document').load("src/p"+paperNumber+".htm h3");
-	//$('#content .document').load("src/p"+paperNumber+".htm a h4");
-});
-
-
-//random banner
-
-$(document).ready(function(){
-	$(".mainImg img").attr("src", "img/"+ getRandomImage());
-});
 
 function getRandomImage() {
   var images = [
@@ -65,11 +53,23 @@ function getRandomImage() {
   "32.jpg",
   "33.jpg",
   "34.jpg",
-  "35.jpg"
+  "35.jpg",
+  "36.jpg",
+  "37.jpg",
+  "38.jpg",
+  "39.jpg",
+  "40.jpg"
+  "41.jpg"
+  "42.jpg"
   ];
 
   return images[Math.floor(Math.random() * images.length)];
 }
+
+$(document).ready(function(){
+  getDocument();
+  $(".mainImg img").attr("src", "img/"+ getRandomImage());
+});
 
 // get paper data
 $(function() {
