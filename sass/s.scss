@@ -2,6 +2,7 @@ body, html{
 	margin:0;
 	width:100%;
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #B6B6B6;
 }
 #content {
 	width:80%;
@@ -9,6 +10,7 @@ body, html{
 	margin-bottom:1.5%;
 	padding:1rem;
 	padding-bottom:0;
+	background-color: #F7F7F7;
 	-webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    1px 1px 3px 0px rgba(50, 50, 50, 0.75);
 	box-shadow:         1px 1px 3px 0px rgba(50, 50, 50, 0.75);
@@ -35,11 +37,12 @@ body, html{
 	}
 }
 .menu{
+	display:none;
 	position: fixed;
 	top:0.6rem;
 	right:0.6rem;
 	padding:1rem;
-	background-color: #579AA6;
+	background-color: #A3B3A6;
 	-webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    1px 1px 3px 0px rgba(50, 50, 50, 0.75);
 	box-shadow:         1px 1px 3px 0px rgba(50, 50, 50, 0.75);

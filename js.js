@@ -12,7 +12,10 @@ function getDocument(){
   }else {
     paperNumber = rand;
   }
-  $('#content .document').load("src/p"+paperNumber+".htm");
+  $( '#content .document' ).load( "src/p"+paperNumber+".htm", function() {
+	  alert( "Load was performed." );
+  });
+  //$('#content .document').load("src/p"+paperNumber+".htm");
   //$('#content .document').load("src/p"+paperNumber+".htm h3");
   //$('#content .document').load("src/p"+paperNumber+".htm a h4");
 }

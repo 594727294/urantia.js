@@ -3,70 +3,73 @@ body, html {
   margin: 0;
   width: 100%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #B6B6B6;
 }
 
-/* line 6, ../sass/s.scss */
+/* line 7, ../sass/s.scss */
 #content {
   width: 80%;
   margin: 3% auto;
   margin-bottom: 1.5%;
   padding: 1rem;
   padding-bottom: 0;
+  background-color: #F7F7F7;
   -webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.75);
 }
-/* line 16, ../sass/s.scss */
+/* line 18, ../sass/s.scss */
 #content .document h1 {
   display: none;
 }
-/* line 19, ../sass/s.scss */
+/* line 21, ../sass/s.scss */
 #content .document p a sup {
   color: #4976B9;
   font-weight: bold;
 }
-/* line 23, ../sass/s.scss */
+/* line 25, ../sass/s.scss */
 #content .document sup {
   color: #439142;
   font-weight: bold;
 }
-/* line 28, ../sass/s.scss */
+/* line 30, ../sass/s.scss */
 #content .mainImg {
   width: 100%;
   text-align: center;
 }
-/* line 31, ../sass/s.scss */
+/* line 33, ../sass/s.scss */
 #content .mainImg img {
   max-width: 60%;
   margin: 0 auto;
 }
 
-/* line 37, ../sass/s.scss */
+/* line 39, ../sass/s.scss */
 .menu {
+  display: none;
   position: fixed;
   top: 0.6rem;
   right: 0.6rem;
   padding: 1rem;
-  background-color: #579AA6;
+  background-color: #A3B3A6;
   -webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.75);
 }
-/* line 47, ../sass/s.scss */
+/* line 50, ../sass/s.scss */
 .menu .font span {
   cursor: pointer;
 }
-/* line 50, ../sass/s.scss */
+/* line 53, ../sass/s.scss */
 .menu .font .serif {
   margin-right: 0.5rem;
   font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
 }
-/* line 54, ../sass/s.scss */
+/* line 57, ../sass/s.scss */
 .menu .font .sans-serif {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 59, ../sass/s.scss */
+/* line 62, ../sass/s.scss */
 .footer {
   width: 100%;
   font-size: 11px;
@@ -76,7 +79,7 @@ body, html {
   padding: 0.5rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
-/* line 67, ../sass/s.scss */
+/* line 70, ../sass/s.scss */
 .footer a {
   color: #4976B9;
   text-decoration: none;
